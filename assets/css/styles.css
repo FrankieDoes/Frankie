@@ -277,11 +277,14 @@ input {
 }
 
 .flag-icon {
-  width: 40px;   /* bigger width */
-  height: 30px;  /* keep 4:3 ratio */
+  display: inline-block; /* or block */
+  width: 40px;
+  height: 30px;
   cursor: pointer;
   transition: transform 0.2s ease;
+  max-width: none;  /* prevent scaling down */
 }
+
 
 .flag-icon:hover {
   transform: scale(1.1);
