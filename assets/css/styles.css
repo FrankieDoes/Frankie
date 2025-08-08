@@ -270,17 +270,22 @@ input {
 /*=============== LANGUAGE SWITCHER ===============*/
 
 .language-switcher {
-  margin-left: 1rem;
-  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 15px;
 }
 
-.language-switcher a {
-  color: inherit;
-  text-decoration: none;
+.flag-icon {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-.language-switcher a:hover {
-  text-decoration: underline;
+.flag-icon:hover {
+  transform: scale(1.1);
 }
 
 
