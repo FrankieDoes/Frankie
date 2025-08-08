@@ -272,14 +272,13 @@ input {
 .language-switcher {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px; /* slightly more space */
   margin-left: 15px;
 }
 
 .flag-icon {
-  width: 24px;
-  height: 16px;
-  object-fit: cover;
+  width: 40px;   /* bigger width */
+  height: 30px;  /* keep 4:3 ratio */
   cursor: pointer;
   transition: transform 0.2s ease;
 }
@@ -287,6 +286,7 @@ input {
 .flag-icon:hover {
   transform: scale(1.1);
 }
+
 
 
 /*=============== HOME ===============*/
