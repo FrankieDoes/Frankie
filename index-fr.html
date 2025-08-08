@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Fr<span>an</span>kie</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Accueil</a></li>
+            <li><a href="#about" class="nav__link">À propos</a></li>
+            <li><a href="#services" class="nav__link">Compétences</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <div class="nav__close" id="nav-close"><i class="ui uil-times"></i></div>
+        </div>
+        <div class="nav__socials">
+          <a href="https://www.linkedin.com/in/francisco-fiago-502259256/" target="_blank" class="nav__social-link"><i class="uil uil-linkedin"></i></a>
+        </div>
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Discutons</a>
+          <div class="nav__toggle" id="nav-toggle"><i class="uil uil-bars"></i></div>
+        </div>
+        <div class="language-switcher">
+          <a href="index.html">EN</a> | <a href="index-fr.html">FR</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Bienvenue sur mon portfolio</span>
+            <h1 class="home__title">Bonjour, je suis Francisco, passionné par <span>l’informatique</span> et la <span>cybersécurité</span>, vivant en <span>France</span>.</h1>
+          </div>
+          <img src="assets/img/DSC0010369.JPG" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/portfolio-6.jpg" alt="" class="about__img" />
+          <div class="about__content">
+            <h2 class="section__title">À propos de moi</h2>
+            <p class="about__description">
+              Né au Venezuela, ayant grandi aux États-Unis et vivant aujourd’hui en France, je suis un passionné d’apprentissage et de résolution de problèmes, développant une expertise en informatique et en cybersécurité. Mon expérience dans des environnements internationaux, combinée à des compétences techniques en programmation, réseaux et sécurité, me permet d’aborder les défis avec créativité et précision. Je me reconvertis actuellement d’une carrière dans les relations clients et la gestion vers une voie entièrement dédiée à la technologie, en me concentrant sur la création de systèmes sécurisés, l’écriture de code propre et l’enrichissement constant de mes connaissances par des études formelles et des projets personnels.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Compétences principales</span>
+              <span class="tabs__btn" data-target="#experience">Expérience</span>
+              <span class="tabs__btn" data-target="#education">Formation & Certifications</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description"><span>Fondamentaux de la cybersécurité</span> – Défense réseau, sécurisation des systèmes et bonnes pratiques.</p>
+                  <p class="tabs__description"><span>Programmation</span> – Python, JavaScript, HTML et CSS pour des applications efficaces et sécurisées.</p>
+                  <p class="tabs__description"><span>Développement web</span> – Création de sites fonctionnels, responsifs et accessibles.</p>
+                  <p class="tabs__description"><span>Réseaux informatiques</span> – Compréhension des protocoles, configuration et dépannage.</p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description"><span>Chef de rang</span> – Le Cosy <span>2025 – Aujourd’hui</span></p>
+                  <p class="tabs__description"><span>KYC & Support technique</span> – FIFA Clearing House <span>2024</span></p>
+                  <p class="tabs__description"><span>Gérant</span> – Le Café des Jacobins <span>2022 – 2024</span></p>
+                  <p class="tabs__description"><span>Représentant commercial</span> – FranEva 777 C.A. <span>2017 – 2019</span></p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description"><span>BTS SIO Option SISR (Services Informatiques aux Organisations – Solutions d’Infrastructure, Systèmes et Réseaux)</span> — Studi <span>2025 – Présent — Diplôme national français délivré par l’État en systèmes et réseaux informatiques.</span></p>
+                  <p class="tabs__description"><span>CS50x : Introduction à l’informatique</span> – Harvard / edX <span>2024</span></p>
+                  <p class="tabs__description"><span>Algorithmes & Structures de données en JavaScript</span> – freeCodeCamp <span>2024</span></p>
+                  <p class="tabs__description"><span>Bibliothèques de développement Front-End</span> – freeCodeCamp <span>2024</span></p>
+                  <p class="tabs__description"><span>Conception Web Responsive</span> – freeCodeCamp <span>2023</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="section__title">Mes compétences</h2>
+        <p class="section__description">Mes compétences clés reposent sur l’informatique, les réseaux et la sécurité. Je me concentre sur la création de solutions fonctionnelles, sécurisées et faciles à maintenir.</p>
+        <div class="services__container container grid">
+          <div class="services__item"><i class="uil uil-shield-check services__icon"></i><h3 class="services__title">Cybersécurité</h3><p class="services__description">Compréhension des principes de sécurité, protection des réseaux et gestion des risques.</p></div>
+          <div class="services__item"><i class="uil uil-code-branch services__icon"></i><h3 class="services__title">Programmation & Scripts</h3><p class="services__description">Python, JavaScript, HTML, CSS pour le développement web et logiciel.</p></div>
+          <div class="services__item"><i class="uil uil-window services__icon"></i><h3 class="services__title">Développement web</h3><p class="services__description">Création complète de sites web responsifs et conviviaux.</p></div>
+          <div class="services__item"><i class="uil uil-wifi services__icon"></i><h3 class="services__title">Réseaux</h3><p class="services__description">Configuration, dépannage et maintenance de systèmes réseau.</p></div>
+          <div class="services__item"><i class="uil uil-database services__icon"></i><h3 class="services__title">Gestion de bases de données</h3><p class="services__description">Bases de SQL et gestion sécurisée des données.</p></div>
+          <div class="services__item"><i class="uil uil-server services__icon"></i><h3 class="services__title">Administration systèmes</h3><p class="services__description">Gestion et sécurisation des systèmes d’exploitation et services.</p></div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Me contacter</h2>
+            <p class="contact__description">Je suis disponible pour de nouveaux projets — concrétisons vos idées ensemble ! Contactez-moi par téléphone : <a href="tel:+33665380417">+33 665380417</a> ou par e-mail : <a href="mailto:fkfiago@gmail.com">fkfiago@gmail.com</a></p>
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input"><input type="text" name="name" placeholder="Votre nom *" class="contact__input" id="contact-name" /></div>
+              <div class="contact__form-input"><input type="email" name="email" placeholder="Votre e-mail" class="contact__input" id="contact-email" /></div>
+              <div class="contact__form-input"><input type="text" name="subject" placeholder="Sujet" class="contact__input" id="contact-subject" /></div>
+              <div class="contact__form-input"><textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Votre message"></textarea></div>
+              <input type="submit" value="Envoyer" class="btn" />
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+          <img src="assets/img/portfolio-4.jpg" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">fr<span>an</span>kie</a>
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/francisco-fiago-502259256/" target="_blank" class="footer__social-link"><i class="uil uil-linkedin"></i></a>
+        </div>
+        <p class="footer__copyright">&copy; 2023. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-angle-up scrollup__icon"></i></a>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
