@@ -4,195 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--=============== UNICONS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-
-    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-
     <title>Portfolio Website</title>
   </head>
   <body>
-    <!--=============== HEADER ===============-->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="index.html" class="nav__logo">Fr<span>an</span>kie</a>
-
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li><a href="#home" class="nav__link active-link">Home</a></li>
-
             <li><a href="#about" class="nav__link">About</a></li>
-
-            <li><a href="#services" class="nav__link">Skilla</a></li>
-
-            <!--<li><a href="#portfolio" class="nav__link">Portfolio</a></li>-->
-
+            <li><a href="#services" class="nav__link">Skills</a></li>
             <li><a href="#contact" class="nav__link">Contact</a></li>
           </ul>
-
-          <div class="nav__close" id="nav-close">
-            <i class="ui uil-times"></i>
-          </div>
+          <div class="nav__close" id="nav-close"><i class="ui uil-times"></i></div>
         </div>
-
         <div class="nav__socials">
-          <a href="https://www.facebook.com/profile.php?id=61550809854579" target="_blank" class="nav__social-link">
-            <i class="uil uil-facebook-f"></i>
-          </a>
-<!--
-          <a href="www.twitter.com" target="_blank" class="nav__social-link">
-            <i class="uil uil-twitter"></i>
-          </a>
-        -->
-          <a href="https://www.linkedin.com/in/francisco-fiago-502259256/" target="_blank" class="nav__social-link">
-            <i class="uil uil-linkedin"></i>
-          </a>
-
-          <a href="https://www.instagram.com/frankie.doesit/" target="_blank" class="nav__social-link">
-            <i class="uil uil-instagram"></i>
-          </a>
+          <a href="https://www.facebook.com/profile.php?id=61550809854579" target="_blank" class="nav__social-link"><i class="uil uil-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/francisco-fiago-502259256/" target="_blank" class="nav__social-link"><i class="uil uil-linkedin"></i></a>
+          <a href="https://www.instagram.com/frankie.doesit/" target="_blank" class="nav__social-link"><i class="uil uil-instagram"></i></a>
         </div>
-
         <div class="nav__btns">
           <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-bars"></i>
-          </div>
+          <div class="nav__toggle" id="nav-toggle"><i class="uil uil-bars"></i></div>
         </div>
       </nav>
     </header>
 
-    <!--=============== MAIN ===============-->
     <main class="main">
-      <!--=============== HOME ===============-->
       <section class="home" id="home">
         <div class="home__container container grid">
           <div class="home__content">
-            <span class="home__subtitle">Welcome Home</span>
-            <h1 class="home__title">
-              Hi, I'm Francisco <span>Computer Science Student</span> based in France.
-            </h1>
+            <span class="home__subtitle">Welcome to my portfolio</span>
+            <h1 class="home__title">Hi, I'm Francisco — a Computer Science & Cybersecurity Enthusiast based in France.</h1>
           </div>
-
           <img src="assets/img/DSC0010369.JPG" alt="" class="home__img" />
         </div>
       </section>
 
-      <!--=============== ABOUT ===============-->
       <section class="about section" id="about">
         <div class="about__container container grid">
           <img src="assets/img/portfolio-6.jpg" alt="" class="about__img" />
-
           <div class="about__content">
-            <h2 class="section__title">About Francisco</h2>
-
+            <h2 class="section__title">About Me</h2>
             <p class="about__description">
-              Born in Venezuela, raised in Miami, and now living in France, I’m passionate about hard work, travel, and exploring new challenges. With a strong background in sales, web development, and international business, I bring a unique blend of skills to every project. I hold several certifications in web development and have extensive experience in sales. Currently, I work for the FIFA Clearing House and offer a range of services, including web design and web development, copywriting, social media marketing, and sales strategy.
+              Born in Venezuela, raised in the United States, and now based in France, I’m a passionate learner and problem-solver with a growing expertise in computer science and cybersecurity. My background in international environments, combined with technical skills in programming, networking, and security, allows me to approach challenges with both creativity and precision. I’m currently transitioning from a professional career in client relations and management to a dedicated path in technology—focusing on building secure systems, writing clean code, and continuously expanding my knowledge through formal education and self-driven projects.
             </p>
 
             <div class="tabs__btns">
-              <span class="tabs__btn tab__active" data-target="#skills"
-                >Main Skills</span
-              >
-              <!--<span class="tabs__btn" data-target="#award">Award</span>-->
-              <span class="tabs__btn" data-target="#experience"
-                >Experience</span
-              >
-              <span class="tabs__btn" data-target="#education"
-                >Education & Certification</span
-              >
+              <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#education">Education & Certification</span>
             </div>
 
             <div class="tabs__content">
               <div class="tabs__item tab__active" data-content id="skills">
                 <div class="tabs__data grid">
-                  <p class="tabs__description">
-                    <span>User experience design</span> - UI/UX
-                    <span>Delight the user and make it work.</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Web Development</span> - JS, CSS, HTML, WordPress, etc.
-                    <span>Websites, web experiences, ...</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Copywriting & Social Media Marketing</span> - Strategy to get new followers.
-                    <span>Get new people to know your product or services</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Sales</span> - Simple
-                    <span>Convert those followers into cash with my sales strategy and experience.</span>
-                  </p>
-                </div>
-              </div>
-
-              <div class="tabs__item" data-content id="award">
-                <div class="tabs__data grid">
-                  <p class="tabs__description">
-                    <span>Awwwards.com</span> - Winner
-                    <span>2019 - 2020</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>CSS Design Awards</span> - Winner
-                    <span>2017 - 2018</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Design nominees</span> - site of the day
-                    <span>2013 - 2014</span>
-                  </p>
+                  <p class="tabs__description"><span>Cybersecurity Fundamentals</span> – Network defense, system hardening, and security best practices.</p>
+                  <p class="tabs__description"><span>Programming</span> – Python, JavaScript, HTML, and CSS for secure and efficient applications.</p>
+                  <p class="tabs__description"><span>Web Development</span> – Creating functional, responsive, and accessible websites.</p>
+                  <p class="tabs__description"><span>Computer Networking</span> – Understanding protocols, configuration, and troubleshooting.</p>
                 </div>
               </div>
 
               <div class="tabs__item" data-content id="experience">
                 <div class="tabs__data grid">
-                  <p class="tabs__description">
-                    <span>KYC and Client's relations</span> - FIFA Clearing house
-                    <span>2024 - Current</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Manager of the Establishment</span> - Le Cafe des Jacobins
-                    <span>2021 - 2024</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Salesman </span> - FranEva 777 C.A.
-                    <span>2017 - 2019</span>
-                  </p>
+                  <p class="tabs__description"><span>KYC & Client Relations</span> – FIFA Clearing House <span>2024 – Current</span></p>
+                  <p class="tabs__description"><span>Manager</span> – Le Café des Jacobins <span>2021 – 2024</span></p>
+                  <p class="tabs__description"><span>Sales Representative</span> – FranEva 777 C.A. <span>2017 – 2019</span></p>
                 </div>
               </div>
 
               <div class="tabs__item" data-content id="education">
                 <div class="tabs__data grid">
-                  <p class="tabs__description">
-                    <span>JavaScript Algorithms and Data Structures</span> - freeCodeCamp
-                    <span>2024</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Front End Development Libraries</span> - freeCodeCamp
-                    <span>2024</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Responsive Web Design</span> - freeCodeCamp
-                    <span>2023</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Personal Trainer Certification</span> - IFBB.
-                    <span>2018</span>
-                  </p>
+                  <p class="tabs__description"><span>CS50x: Introduction to Computer Science</span> – Harvard / edX <span>2024</span></p>
+                  <p class="tabs__description"><span>BTS SIO Option SISR (IT Services to Organizations – Infrastructure, Systems & Networks)</span> – Starting 2025</p>
+                  <p class="tabs__description"><span>JavaScript Algorithms & Data Structures</span> – freeCodeCamp <span>2024</span></p>
+                  <p class="tabs__description"><span>Front-End Development Libraries</span> – freeCodeCamp <span>2024</span></p>
+                  <p class="tabs__description"><span>Responsive Web Design</span> – freeCodeCamp <span>2023</span></p>
                 </div>
               </div>
             </div>
@@ -200,291 +91,53 @@
         </div>
       </section>
 
-      <!--=============== SERVICES ===============-->
       <section class="services section" id="services">
         <h2 class="section__title">My Skills</h2>
-        <p class="section__description">
-          Get to know my Unique Set of Skills.
-        </p>
-
+        <p class="section__description">My core skills are rooted in computer science, networking, and security. I focus on building solutions that are functional, secure, and maintainable.</p>
         <div class="services__container container grid">
-          <div class="services__item">
-            <i class="uil uil-users-alt services__icon"></i>
-
-            <h3 class="services__title">Sales</h3>
-            <p class="services__description">
-              Experienced in developing tailored sales strategies that expand market reach, strengthen client relationships, and drive revenue growth. 
-            </p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-layer-group services__icon"></i>
-
-            <h3 class="services__title">Web Development</h3>
-            <p class="services__description">
-              Skilled in building sleek, functional websites that enhance user experience and deliver impactful results. 
-            </p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-rss-interface services__icon"></i>
-
-            <h3 class="services__title">Web Design</h3>
-            <p class="services__description">
-              Passionate about crafting visually stunning and user-friendly website designs that reflect a brand’s identity.
-            </p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-desktop services__icon"></i>
-
-            <h3 class="services__title">Copywriting</h3>
-            <p class="services__description">
-              Proficient in creating compelling copy that resonates with audiences and inspires action.
-            </p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-users-alt services__icon"></i>
-
-            <h3 class="services__title">Social Media Marketing</h3>
-            <p class="services__description">
-              Adept at developing strategic social media campaigns to boost online visibility and engagement.
-            </p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-desktop services__icon"></i>
-
-            <h3 class="services__title">Video Editing</h3>
-            <p class="services__description">
-              Experienced in producing polished, engaging videos that effectively tell a story and captivate viewers.
-            </p>
-          </div>
+          <div class="services__item"><i class="uil uil-shield-check services__icon"></i><h3 class="services__title">Cybersecurity</h3><p class="services__description">Understanding of security principles, network protection, and risk mitigation.</p></div>
+          <div class="services__item"><i class="uil uil-code-branch services__icon"></i><h3 class="services__title">Programming & Scripting</h3><p class="services__description">Python, JavaScript, HTML, CSS for web and software development.</p></div>
+          <div class="services__item"><i class="uil uil-window services__icon"></i><h3 class="services__title">Web Development</h3><p class="services__description">Full-cycle creation of responsive, user-friendly websites.</p></div>
+          <div class="services__item"><i class="uil uil-wifi services__icon"></i><h3 class="services__title">Networking</h3><p class="services__description">Configuration, troubleshooting, and maintenance of network systems.</p></div>
+          <div class="services__item"><i class="uil uil-database services__icon"></i><h3 class="services__title">Database Management</h3><p class="services__description">Basics of SQL and secure data handling.</p></div>
+          <div class="services__item"><i class="uil uil-server services__icon"></i><h3 class="services__title">IT Systems Administration</h3><p class="services__description">Managing and securing operating systems and services.</p></div>
         </div>
       </section>
 
-      <!--=============== PORTFOLIO ===============-->       <!--
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">My Latest Projects</h2>
-        <p class="section__description">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration.
-        </p>
-
-        <div class="portfolio__container container grid">
-          <div class="portfolio__item">
-            <img
-              src="assets/img/portfolio-1.jpg"
-              alt=""
-              class="portfolio__img"
-            />
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Development</p>
-              <h3 class="portfolio__title">Web Design</h3>
-              <p class="portfolio__description">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-
-          <div class="portfolio__item">
-            <img
-              src="assets/img/portfolio-2.jpg"
-              alt=""
-              class="portfolio__img"
-            />
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Product Design</p>
-              <h3 class="portfolio__title">App Development</h3>
-              <p class="portfolio__description">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-
-          <div class="portfolio__item">
-            <img
-              src="assets/img/portfolio-3.jpg"
-              alt=""
-              class="portfolio__img"
-            />
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Application</p>
-              <h3 class="portfolio__title">Photoshop Design</h3>
-              <p class="portfolio__description">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-
-          <div class="portfolio__item">
-            <img
-              src="assets/img/portfolio-4.jpg"
-              alt=""
-              class="portfolio__img"
-            />
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Web Design</p>
-              <h3 class="portfolio__title">Website Design</h3>
-              <p class="portfolio__description">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-
-          <div class="portfolio__item">
-            <img
-              src="assets/img/portfolio-5.jpg"
-              alt=""
-              class="portfolio__img"
-            />
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Application</p>
-              <h3 class="portfolio__title">Web Application</h3>
-              <p class="portfolio__description">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-
-          <div class="portfolio__item">
-            <img
-              src="assets/img/portfolio-6.jpg"
-              alt=""
-              class="portfolio__img"
-            />
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Photoshop</p>
-              <h3 class="portfolio__title">Photo Editing</h3>
-              <p class="portfolio__description">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>          -->
-
-      <!--=============== CONTACT ===============-->
       <section class="contact section" id="contact">
         <div class="contact__container container grid">
           <div class="contact__content">
             <h2 class="section__title">Contact Me</h2>
-
-            <p class="contact__description">
-              I’m available for new projects—let’s bring your ideas to life! Connect with me via phone:
-              <a href="tel:+33665380417">+33 665380417</a> or email:
-              <a href="mailto:fkfiago@gmail.com">fkfiago@gmail.com</a>
-            </p>
-
+            <p class="contact__description">I’m available for new projects—let’s bring your ideas to life! Connect with me via phone: <a href="tel:+33665380417">+33 665380417</a> or email: <a href="mailto:fkfiago@gmail.com">fkfiago@gmail.com</a></p>
             <form class="contact__form" id="contact-form">
-              <div class="contact__form-input">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Your Name *"
-                  class="contact__input"
-                  id="contact-name"
-                />
-              </div>
-
-              <div class="contact__form-input">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Your e-mail"
-                  class="contact__input"
-                  id="contact-email"
-                />
-              </div>
-
-              <div class="contact__form-input">
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Write a Subject"
-                  class="contact__input"
-                  id="contact-subject"
-                />
-              </div>
-
-              <div class="contact__form-input">
-                <textarea
-                  name="message"
-                  id="contact-message"
-                  class="contact__input textarea"
-                  placeholder="Your Message"
-                ></textarea>
-              </div>
-
+              <div class="contact__form-input"><input type="text" name="name" placeholder="Your Name *" class="contact__input" id="contact-name" /></div>
+              <div class="contact__form-input"><input type="email" name="email" placeholder="Your e-mail" class="contact__input" id="contact-email" /></div>
+              <div class="contact__form-input"><input type="text" name="subject" placeholder="Write a Subject" class="contact__input" id="contact-subject" /></div>
+              <div class="contact__form-input"><textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea></div>
               <input type="submit" value="Submit" class="btn" />
-
               <p class="error__message" id="error-message"></p>
             </form>
           </div>
-
           <img src="assets/img/portfolio-4.jpg" alt="" class="contact__img" />
         </div>
       </section>
     </main>
 
-    <!--=============== FOOTER ===============-->
     <footer class="footer">
       <div class="footer__container container grid">
         <a href="index.html" class="footer__logo">fr<span>an</span>kie</a>
-
         <div class="footer__socials">
-          <a
-            href="https://www.facebook.com/profile.php?id=61550809854579"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="uil uil-facebook-f"></i>
-          </a>
-<!--
-          <a href="www.twitter.com" target="_blank" class="footer__social-link">
-            <i class="uil uil-twitter"></i>
-          </a>
-        -->
-          <a
-            href="https://www.linkedin.com/in/francisco-fiago-502259256/"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="uil uil-linkedin"></i>
-          </a>
-
-          <a
-            href="https://www.instagram.com/frankie.doesit/"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="uil uil-instagram"></i>
-          </a>
+          <a href="https://www.facebook.com/profile.php?id=61550809854579" target="_blank" class="footer__social-link"><i class="uil uil-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/francisco-fiago-502259256/" target="_blank" class="footer__social-link"><i class="uil uil-linkedin"></i></a>
+          <a href="https://www.instagram.com/frankie.doesit/" target="_blank" class="footer__social-link"><i class="uil uil-instagram"></i></a>
         </div>
-
         <p class="footer__copyright">&copy; 2023. All rights reserved.</p>
       </div>
     </footer>
 
-    <!--=============== SCROLL UP ===============-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-angle-up scrollup__icon"></i>
-    </a>
-
-    <!--=============== EMAIL JS ===============-->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-
-    <!--=============== MAIN JS ===============-->
+    <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-angle-up scrollup__icon"></i></a>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+
